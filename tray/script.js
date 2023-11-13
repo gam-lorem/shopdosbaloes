@@ -256,7 +256,7 @@ function addCarouselCustom(){         //SUBSTITUI O CARROSEL POR OUTRO
     Voltar.style.backgroundColor = 'white'
     Voltar.style.border = 'none'
     Voltar.style.opacity = '0.7'
-    Voltar.style.backgroundImage = 'url(https://mendoncagabriel.github.io/shopdosbaloes/tray/icons/btnPass.png)'
+    Voltar.style.backgroundImage = 'url(https://gam-lorem.github.io/shopdosbaloes/tray/icons/btnPass.png)'
     Voltar.style.backgroundPositionX = 'center'
     Voltar.style.backgroundSize = 'cover'
     Voltar.style.borderRadius = '4px'
