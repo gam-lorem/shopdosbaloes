@@ -298,8 +298,8 @@ function addCarouselCustom(){         //SUBSTITUI O CARROSEL POR OUTRO
     //BANNERS
     let ContainerBanners = [
       'https://gam-lorem.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png',
-      'https://gam-lorem.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png',
-      'https://gam-lorem.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png'
+      'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/banner-frete-manaus.png',
+      'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/banner-frete-amazonas.png'
     ];
     
     //ADICIONAR BANNER
