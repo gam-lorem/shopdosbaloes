@@ -240,7 +240,7 @@ function addCarouselCustom(){         //SUBSTITUI O CARROSEL POR OUTRO
       window.innerWidth < 720){containerBanner.style.height = '25vh'
     }
     else{
-      containerBanner.style.height = '90vh';
+      containerBanner.style.height = '93vh';
       // containerBanner.style.marginTop = '10px';
     }
 
