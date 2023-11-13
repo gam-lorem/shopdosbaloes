@@ -274,7 +274,7 @@ function addCarouselCustom(){         //SUBSTITUI O CARROSEL POR OUTRO
     Passar.style.backgroundColor = 'white'
     Passar.style.border = 'none'
     Passar.style.opacity = '0.7'
-    Passar.style.backgroundImage = 'url(https://mendoncagabriel.github.io/shopdosbaloes/tray/icons/btnPass.png)'
+    Passar.style.backgroundImage = 'url(https://gam-lorem.github.io/shopdosbaloes/tray/icons/btnPass.png)'
     Passar.style.backgroundPositionX = 'center'
     Passar.style.backgroundSize = 'cover'
     Passar.style.borderRadius = '4px'
@@ -297,9 +297,9 @@ function addCarouselCustom(){         //SUBSTITUI O CARROSEL POR OUTRO
     
     //BANNERS
     let ContainerBanners = [
-      'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png',
-      'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png',
-      'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png'
+      'https://gam-lorem.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png',
+      'https://gam-lorem.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png',
+      'https://gam-lorem.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png'
     ];
     
     //ADICIONAR BANNER
@@ -542,7 +542,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
   prevButton.style.backgroundPosition = 'center'
   prevButton.style.backgroundRepeat = 'no-repeat'
   prevButton.style.backgroundSize = '80%'
-  prevButton.style.backgroundImage = 'url(https://mendoncagabriel.github.io/shopdosbaloes/tray/icons/btnPass.png)'
+  prevButton.style.backgroundImage = 'url(https://gam-lorem.github.io/shopdosbaloes/tray/icons/btnPass.png)'
   prevButton.addEventListener('click', () => scrollCarrossel('left'));
 
   const nextButton = document.createElement('button');
@@ -557,7 +557,7 @@ function addComponenteMarcas(){       //ADICIONAR COMPONENTE CAROSELL MARCAS
   nextButton.style.backgroundPosition = 'center'
   nextButton.style.backgroundRepeat = 'no-repeat'
   nextButton.style.backgroundSize = '80%'
-  nextButton.style.backgroundImage = 'url(https://mendoncagabriel.github.io/shopdosbaloes/tray/icons/btnPass.png)'
+  nextButton.style.backgroundImage = 'url(https://gam-lorem.github.io/shopdosbaloes/tray/icons/btnPass.png)'
 
   nextButton.addEventListener('click', () => scrollCarrossel('right'));
   CCCarrosel.appendChild(prevButton);
@@ -665,43 +665,43 @@ function addBannerFornecedor(){
   let fornecedores = [
     {
       marca: 'pic-pic',
-      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PIC-PIC.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/picpic-mobile.png',
+      img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/PIC-PIC.png',
+      img2: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/picpic-mobile.png',
     }, 
     {
       marca: 'sao-roque',
-      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/SAO-ROQUE.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/saoroque-mobile.png',
+      img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/SAO-ROQUE.png',
+      img2: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/saoroque-mobile.png',
     }, 
     {
       marca: 'happy-day',
-      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/HAPPY-DAY.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/happyday-mobile.png',
+      img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/HAPPY-DAY.png',
+      img2: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/happyday-mobile.png',
     }, 
     {
       marca: 'art-latex',
-      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/ARTE-LATEX.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/artelatex-mobile.png',
+      img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/ARTE-LATEX.png',
+      img2: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/artelatex-mobile.png',
     }, 
     {
       marca: 'festball',
-      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/FEST-BALL.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/FEST-BALL.png',
+      img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/FEST-BALL.png',
+      img2: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/FEST-BALL.png',
     }, 
     {
       marca: 'ponto-das-festas',
-      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/PONTO-DAS-FESTAS.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/pontodasfestas-mobile.png',
+      img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/PONTO-DAS-FESTAS.png',
+      img2: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/pontodasfestas-mobile.png',
     }, 
     {
       marca: 'festcolor',
-      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/FEST-COLOR.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/festcolor-mobile.png',
+      img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/FEST-COLOR.png',
+      img2: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/festcolor-mobile.png',
     }, 
     {
       marca: 'joy',
-      img: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/JOY.png',
-      img2: 'https://mendoncagabriel.github.io/shopdosbaloes/imagem/banner/joy-mobile.png',
+      img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/JOY.png',
+      img2: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/joy-mobile.png',
     }, 
 
   ]
@@ -866,15 +866,10 @@ function addCard(){
 
 
     let banner = [
-      {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/segurança.png'},
-      {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/cartao.png'},
-      {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/frete.png'},
-      {img: 'https://mendoncagabriel.github.io/shopdosbaloes/tray/images/banner/pix.png'},
-
-      // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
-      // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
-      // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
-      // {img: 'https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE-1200x800.jpg'},
+      {img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/segurança.png'},
+      {img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/cartao.png'},
+      {img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/frete.png'},
+      {img: 'https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/pix.png'},
     ]
 
     for(let i = 0; i<banner.length; i++){
