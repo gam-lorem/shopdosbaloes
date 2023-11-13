@@ -915,7 +915,8 @@ animacaoFlutuacao();MsgAvisoVendaAmazonas();
 addCarouselCustom(); zoomCorrection(); 
 addComponnestButtonsFloat(); addButtonSaibaMais(); 
 borderRadius(); addComponenteMarcas();
-removerParcelamento();  blockSite()
+removerParcelamento(); 
+//  blockSite() //poe tela de bloquei no site
 
 
 
