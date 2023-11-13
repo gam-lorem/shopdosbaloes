@@ -203,7 +203,7 @@ Quero saber mais sobre.
     text.style.fontSize = '12px';
     
     const img = document.createElement('img');
-    img.src = 'https://mendoncagabriel.github.io/shopdosbaloes/tray/icons/icons8-whatsapp-96.png';
+    img.src = 'https://gam-lorem.github.io/shopdosbaloes/tray/icons/icons8-whatsapp-96.png';
     img.style.height = '60%';
     img.style.marginRight = '5px';
     
