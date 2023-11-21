@@ -917,7 +917,7 @@ addCarouselCustom(); zoomCorrection();
 addComponnestButtonsFloat(); addButtonSaibaMais(); 
 borderRadius(); addComponenteMarcas();
 removerParcelamento(); 
-//  blockSite() //poe tela de bloquei no site
+blockSite() //poe tela de bloquei no site
 
 
 
