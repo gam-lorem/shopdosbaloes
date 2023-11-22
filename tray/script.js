@@ -224,11 +224,14 @@ function customization() {
   function addCarouselCustom() {
     //SUBSTITUI O CARROSEL POR OUTRO
     if (
+      document.location.href == "https://www.shopdosbaloes.com.br/" ||
       document.location.href == "http://www.shopdosbaloes.com.br/" ||
+      document.location.href == "shopdosbaloes.com.br" ||
       document.location.href == "https://www.shopdosbaloes.com.br/"
     ) {
       //LOCAL DE INJEÇÃO
       let container;
+
       if (window.innerWidth > 720) {
         container = document.querySelector("header");
       } else {
@@ -266,8 +269,7 @@ function customization() {
       Voltar.style.backgroundColor = "white";
       Voltar.style.border = "none";
       Voltar.style.opacity = "0.7";
-      Voltar.style.backgroundImage =
-        "url(https://gam-lorem.github.io/shopdosbaloes/tray/icons/btnPass.png)";
+      Voltar.style.backgroundImage = "url(https://gam-lorem.github.io/shopdosbaloes/tray/icons/btnPass.png)";
       Voltar.style.backgroundPositionX = "center";
       Voltar.style.backgroundSize = "cover";
       Voltar.style.borderRadius = "4px";
