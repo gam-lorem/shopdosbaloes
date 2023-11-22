@@ -729,7 +729,7 @@ function customization() {
     fornecedores.forEach((i) => {
       const f = document.querySelector('.catalog-name').innerText
 
-      if (f.toLocaleLowerCase().replace(" ", "-").includes(i.marca)) {
+      if (f && f.toLocaleLowerCase().replace(" ", "-").includes(i.marca)) {
         item = i;
       }
     });
