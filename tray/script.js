@@ -1,10 +1,5 @@
 function customization() {
-  function carousel() {
-    //validar pagina home
-    if (!window.location.href.includes("shopdosbaloes.com.br")) {
-      return;
-    }
-  }
+
   function addComponnestButtonsFloat() {
     //ADICIONAR COMPONENTE DE REDES SOCIAIS
     var buttonsFloat = document.createElement("div");
@@ -727,9 +722,8 @@ function customization() {
     ];
     let item = {};
     fornecedores.forEach((i) => {
-      const f = document.querySelector('.catalog-name').innerText
-
-      if (f && f.toLocaleLowerCase().replace(" ", "-").includes(i.marca)) {
+      const f = document.querySelector('.catalog-name')
+      if (f && f.innerText.toLocaleLowerCase().replace(" ", "-").includes(i.marca)) {
         item = i;
       }
     });
