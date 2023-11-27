@@ -438,6 +438,10 @@ function customization() {
         url: "http://www.shopdosbaloes.com.br/ponto-das-festas",
       },
       {
+        img: "https://pontodasfestas.com.br/wp-content/uploads/2023/04/Logo-Fox-import-hr.png",
+        url: "http://www.shopdosbaloes.com.br/ponto-das-festas-",
+      },
+      {
         img: "https://baloesjoy.com.br/wp-content/uploads/2022/06/logo-joy.png",
         url: "https://www.shopdosbaloes.com.br/joy",
       },
@@ -524,8 +528,7 @@ function customization() {
 
     let scrollX = 0;
     function scrollCarrossel(direction) {
-      const carrosselWidth =
-        containerCarrosel.scrollWidth - containerCarrosel.clientWidth;
+      const carrosselWidth = containerCarrosel.scrollWidth - containerCarrosel.clientWidth;
 
       if (direction === "left" && scrollX > 0) {
         scrollX -= 200; // Ajuste a quantidade que deseja rolar
@@ -677,8 +680,7 @@ function customization() {
     }
   }
   function addBannerFornecedor() {
-    //detectar fornecedor
-    let fornecedores = [
+    let fornecedor = [
       {
         marca: "pic-pic",
         img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/PIC-PIC.png",
@@ -719,19 +721,12 @@ function customization() {
         img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/JOY.png",
         img2: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/banner/joy-mobile.png",
       },
-    ];
-    let item = {};
-    fornecedores.forEach((i) => {
-      const f = document.querySelector('.catalog-name')
-      if (f && f.innerText.toLocaleLowerCase().replace(" ", "-").includes(i.marca)) {
-        item = i;
-      }
-    });
-
-    //criar banner
-    let catalog = document.querySelector(".catalog-header");
-
-    if (catalog) {
+    ]
+    try{
+      const nome = document.querySelector('.catalog-name').innerText.toLocaleLowerCase().replace(/ /g, "-")
+      const item =  fornecedor.find((e)=> e.marca === nome) 
+      let catalog = document.querySelector(".catalog-header");
+      
       let banner = document.createElement("div");
       banner.style.boxShadow = "1px 1px 5px 0px";
       banner.style.borderRadius = "8px";
@@ -740,17 +735,15 @@ function customization() {
       banner.style.marginBottom = "20px";
       banner.style.backgroundPosition = "center";
       banner.style.backgroundSize = "cover";
-
-      //Banner para pc
       if (window.innerWidth > 720) {
         banner.style.backgroundImage = `url(${item.img})`;
       } else {
-        //Banner para mobile
         banner.style.backgroundImage = `url(${item.img2})`;
       }
-
       let paiDoCatalog = catalog.parentNode;
       paiDoCatalog.insertBefore(banner, catalog.nextSibling);
+    }catch(erro){
+      console.log('Erro ao exibir banner fornecedor')
     }
   }
   function blockSite() {
@@ -925,7 +918,6 @@ function customization() {
       parent.insertBefore(container, root);
     }
   }
-
   function start() {
     addCard();
     addBannerFornecedor();
