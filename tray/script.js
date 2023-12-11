@@ -438,10 +438,6 @@ function customization() {
         url: "http://www.shopdosbaloes.com.br/ponto-das-festas",
       },
       {
-        img: "https://pontodasfestas.com.br/wp-content/uploads/2023/04/Logo-Fox-import-hr.png",
-        url: "http://www.shopdosbaloes.com.br/ponto-das-festas-",
-      },
-      {
         img: "https://baloesjoy.com.br/wp-content/uploads/2022/06/logo-joy.png",
         url: "https://www.shopdosbaloes.com.br/joy",
       },
@@ -456,14 +452,6 @@ function customization() {
       },
       {
         img: "https://seeklogo.com//images/S/sempertex-logo-743D32B199-seeklogo.com.png",
-        url: "http://www.shopdosbaloes.com.br/",
-      },
-      {
-        img: "https://funchalpapeis.cdn.plataformaneo.com.br/produto/78920210511401_78920210511401.JPG",
-        url: "http://www.shopdosbaloes.com.br/",
-      },
-      {
-        img: "https://www.produtosmakemais.com.br/make/wp-content/themes/Make/images/logo-make.png",
         url: "http://www.shopdosbaloes.com.br/",
       },
       {
@@ -930,7 +918,7 @@ function customization() {
     borderRadius();
     addComponenteMarcas();
     removerParcelamento();
-    blockSite();
+    
   }
 
   return { start };
