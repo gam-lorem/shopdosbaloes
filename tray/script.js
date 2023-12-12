@@ -911,7 +911,7 @@ function customization() {
     addBannerFornecedor();
     animacaoFlutuacao();
     MsgAvisoVendaAmazonas();
-    // addCarouselCustom();
+    addCarouselCustom();
     zoomCorrection();
     addComponnestButtonsFloat();
     addButtonSaibaMais();
