@@ -310,10 +310,10 @@ function customization() {
         // "https://gam-lorem.github.io/shopdosbaloes/tray/images/banner/Banner%20pc%20v2-min.png",
         // "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/banner-frete-manaus.png",
         // "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/banner-frete-amazonas.png",
-        "https://gam-lorem.github.io/shopdosbaloes/tray/banner/banner1.png",
-        "https://gam-lorem.github.io/shopdosbaloes/tray/banner/banner2.png",
-        "https://gam-lorem.github.io/shopdosbaloes/tray/banner/banner3.png",
-        "https://gam-lorem.github.io/shopdosbaloes/tray/banner/banner4.png"
+        // "https://gam-lorem.github.io/shopdosbaloes/tray/banner/banner1.png",
+        // "https://gam-lorem.github.io/shopdosbaloes/tray/banner/banner2.png",
+        // "https://gam-lorem.github.io/shopdosbaloes/tray/banner/banner3.png",
+        // "https://gam-lorem.github.io/shopdosbaloes/tray/banner/banner4.png"
       
       ];
 
@@ -862,18 +862,18 @@ function customization() {
       requestAnimationFrame(check);
 
       let banner = [
-        // {
-        //   img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/segurança.png",
-        // },
-        // {
-        //   img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/cartao.png",
-        // },
-        // {
-        //   img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/frete.png",
-        // },
-        // {
-        //   img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/pix.png",
-        // },
+        {
+          img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/segurança.png",
+        },
+        {
+          img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/cartao.png",
+        },
+        {
+          img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/frete.png",
+        },
+        {
+          img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/pix.png",
+        },
       ];
 
       for (let i = 0; i < banner.length; i++) {
