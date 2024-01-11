@@ -862,18 +862,18 @@ function customization() {
       requestAnimationFrame(check);
 
       let banner = [
-        {
-          img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/segurança.png",
-        },
-        {
-          img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/cartao.png",
-        },
-        {
-          img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/frete.png",
-        },
-        {
-          img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/pix.png",
-        },
+        // {
+        //   img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/segurança.png",
+        // },
+        // {
+        //   img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/cartao.png",
+        // },
+        // {
+        //   img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/frete.png",
+        // },
+        // {
+        //   img: "https://raw.githubusercontent.com/gam-lorem/shopdosbaloes/main/tray/images/banner/pix.png",
+        // },
       ];
 
       for (let i = 0; i < banner.length; i++) {
@@ -916,7 +916,7 @@ function customization() {
     addBannerFornecedor();
     animacaoFlutuacao();
     MsgAvisoVendaAmazonas();
-    addCarouselCustom();
+    // addCarouselCustom();
     zoomCorrection();
     addComponnestButtonsFloat();
     addButtonSaibaMais();
